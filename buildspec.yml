@@ -1,0 +1,12 @@
+virsion: 0.2
+phases:
+  build:
+    commands:
+    - echo "this is build pahase"
+  post_build:
+    commands: 
+    - echo " deploy to s3"
+artifacts:
+  files:
+  - '**/*'
+    
